@@ -1,0 +1,26 @@
+{
+  "name": "discord-enums",
+  "version": "0.0.0",
+  "description": "A collection of enums for the Discord API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubfib/discord-enums.git"
+  },
+  "keywords": [
+    "discord",
+    "enums",
+    "discord-enums",
+    "discord-api",
+    "api"
+  ],
+  "author": "dubfib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dubfib/discord-enums/issues"
+  },
+  "homepage": "https://github.com/dubfib/discord-enums#readme"
+}

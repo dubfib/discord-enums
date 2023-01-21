@@ -1,11 +1,12 @@
 {
   "name": "discord-enums",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A collection of enums for the Discord API",
   "main": "index.ts",
   "scripts": {
     "test": "ts-node test/index.ts",
-    "build": "tsc --outDir dist"
+    "build": "tsc --outDir dist",
+    "release": "cd dist && npm publish --access-public"
   },
   "repository": {
     "type": "git",

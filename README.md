@@ -18,3 +18,6 @@ You can find the list of methods [here](https://github.com/dubfib/discord-enums/
 import { UserFlags } from 'discord-enums';
 console.log(UserFlags) //returns object
 ```
+
+# Disclamer
+This package is **not** made by [Discord](https://discord.com) nor is affiliated with [Discord](https://discord.com), also colors are from [Nord](https://nordtheme.com)

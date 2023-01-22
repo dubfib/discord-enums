@@ -1,4 +1,4 @@
-name: Run test file
+name: Execute Code
 
 on:
   push:
@@ -15,8 +15,14 @@ jobs:
         with:
           node-version: '16.x'
           
-      - run: npm install ts-node
+      - run: npm install ts-node typescript
         name: Installing packages
       
+      - run: tsc
+        name: Building Javascript
+        
+      - run: npx node test/index.js
+        name: Execute Javascript 
+
       - run: npx ts-node test/index.ts
-        name: Execute test file
+        name: Execute Typescript

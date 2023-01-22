@@ -5,8 +5,52 @@ import {
     GatewayOpcodes 
 } from '../index';
 
+import { 
+    GuildDefaultMessageNotifications,
+    GuildExplicitContentFilter,
+    GuildFeature,
+    GuildMFALevel,
+    GuildNSFWLevel,
+    GuildPremiumTier,
+    GuildScheduledEventEntityType,
+    GuildScheduledEventPrivacyLevel,
+    GuildScheduledEventStatus,
+    GuildSystemChannelFlags,
+    GuildVerificationLevel,
+    GuildWidgetStyle
+} from '../index';
+
+import {
+    UserFlags,
+    UserPremiumType
+} from '../index';
+
 //Gateway
-console.log(GatewayCloseCodes);
-console.log(GatewayDispatchEvents);
-console.log(GatewayIntentBits);
-console.log(GatewayOpcodes);
+console.log(
+    GatewayCloseCodes, 
+    GatewayDispatchEvents, 
+    GatewayIntentBits, 
+    GatewayOpcodes 
+);
+
+//Guild
+console.log(
+    GuildDefaultMessageNotifications,
+    GuildExplicitContentFilter,
+    GuildFeature,
+    GuildMFALevel,
+    GuildNSFWLevel,
+    GuildPremiumTier,
+    GuildScheduledEventEntityType,
+    GuildScheduledEventPrivacyLevel,
+    GuildScheduledEventStatus,
+    GuildSystemChannelFlags,
+    GuildVerificationLevel,
+    GuildWidgetStyle
+);
+
+//User
+console.log(
+    UserFlags,
+    UserPremiumType
+);

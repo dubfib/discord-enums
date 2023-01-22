@@ -1,7 +1,7 @@
 {
   "name": "discord-enums",
   "version": "0.0.2",
-  "description": "A collection of enums for the Discord API",
+  "description": "A collection of enums for the v10 Discord API",
   "main": "index.ts",
   "scripts": {
     "test": "ts-node test/index.ts",
@@ -17,7 +17,11 @@
     "enums",
     "discord-enums",
     "discord-api",
-    "api"
+    "api",
+    "v10",
+    "discord-api-v10",
+    "discord-v10",
+    "discord-v10-api"
   ],
   "author": "dubfib",
   "license": "MIT",

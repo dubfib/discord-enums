@@ -2,9 +2,9 @@
 Welcome to the Discord Enums docs!
 
 # Pages
-+ [Guild]()
-+ [User]()
-+ [Gateway]()
++ [Guild](Guild.md)
++ [User](User.md)
++ [Gateway](Gateway.md)
 
 # Notice
 The docs only shows the list of enums, this is an example on how to use one `UserFlags`

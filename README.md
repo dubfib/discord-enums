@@ -8,6 +8,13 @@
   <br> <br>
 </div>
 
+# Install
+```
+npm install discord-enums
+yarn add discord-enums
+pnpm add discord-enums
+```
+
 # Documentation
 You can find the list of methods [here](https://github.com/dubfib/discord-enums/blob/main/docs/Home.md)
 

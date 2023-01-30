@@ -25,6 +25,15 @@ import {
     UserPremiumType
 } from './src/User';
 
+import {
+    ActivityFlags,
+    ActivityTypes
+} from './src/Activity';
+
+import {
+    AllowedMentionsTypes
+} from './src/Mentions';
+
 export {
     GatewayIntentBits,
     GatewayDispatchEvents,
@@ -43,5 +52,8 @@ export {
     GuildVerificationLevel,
     GuildWidgetStyle,
     UserFlags,
-    UserPremiumType
+    UserPremiumType,
+    ActivityFlags,
+    ActivityTypes,
+    AllowedMentionsTypes
 };

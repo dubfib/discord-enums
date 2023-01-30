@@ -1,11 +1,8 @@
-import { 
-    GatewayCloseCodes, 
-    GatewayDispatchEvents, 
-    GatewayIntentBits, 
-    GatewayOpcodes 
-} from '../index';
-
-import { 
+import {
+    GatewayIntentBits,
+    GatewayDispatchEvents,
+    GatewayCloseCodes,
+    GatewayOpcodes,
     GuildDefaultMessageNotifications,
     GuildExplicitContentFilter,
     GuildFeature,
@@ -17,13 +14,14 @@ import {
     GuildScheduledEventStatus,
     GuildSystemChannelFlags,
     GuildVerificationLevel,
-    GuildWidgetStyle
+    GuildWidgetStyle,
+    UserFlags,
+    UserPremiumType,
+    ActivityFlags,
+    ActivityTypes,
+    AllowedMentionsTypes
 } from '../index';
 
-import {
-    UserFlags,
-    UserPremiumType
-} from '../index';
 
 //Gateway
 console.log(
@@ -53,4 +51,15 @@ console.log(
 console.log(
     UserFlags,
     UserPremiumType
+);
+
+//Activity
+console.log(
+    ActivityFlags,
+    ActivityTypes
+);
+
+//Mentions
+console.log(
+    AllowedMentionsTypes
 );

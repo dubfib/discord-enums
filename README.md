@@ -9,7 +9,7 @@
 </div>
 
 # Install
-This enums package can be installed with your preferred package manager for Node.js
+This package can be installed with your preferred package manager for Node.js
 ```
 npm install discord-enums
 yarn add discord-enums

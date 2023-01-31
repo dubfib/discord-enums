@@ -9,6 +9,7 @@ Welcome to the Discord Enums docs!
 + [Channel](Channel.md)
 + [Component](Component.md)
 + [Forum](Forum.md)
++ [Guild](Guild.md)
 + [Gateway](Gateway.md)
 + [Integration](Integration.md)
 + [Interaction](Interaction.md)

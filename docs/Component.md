@@ -2,7 +2,7 @@
 
 ## List of Enums
 ```
-ComponetType
+ComponentType
 ```
 
 [Go back?](Home.md)

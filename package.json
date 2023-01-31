@@ -1,6 +1,6 @@
 {
   "name": "discord-enums",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A collection of enums for the v10 Discord API",
   "main": "index.ts",
   "scripts": {

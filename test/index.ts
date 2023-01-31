@@ -1,4 +1,17 @@
 import {
+    ActivityFlags,
+    ActivityTypes,
+    ApplicationCommandOptionType,
+    ApplicationCommandPermissionType,
+    ApplicationCommandType,
+    ApplicationFlags,
+    ApplicationRoleConnectionMetadataType,
+    AuditLogEvent,
+    ButtonStyle,
+    ChannelFlags,
+    ChannelType,
+    ComponentType,
+    ForumLayoutType,
     GatewayIntentBits,
     GatewayDispatchEvents,
     GatewayCloseCodes,
@@ -15,24 +28,44 @@ import {
     GuildSystemChannelFlags,
     GuildVerificationLevel,
     GuildWidgetStyle,
+    IntegrationExpireBehavior,
+    InteractionResponseType,
+    InteractionType,
+    InviteTargetType,
+    AllowedMentionsTypes,
+    MessageFlags,
+    MessageType,
+    MessageActivityType,
+    AutoModerationActionType,
+    AutoModerationRuleEventType,
+    AutoModerationRuleKeywordPresetType,
+    AutoModerationRuleTriggerType,
+    SortOrderType,
+    StageInstancePrivacyLevel,
+    TeamMemberMembershipState,
+    TextInputStyle,
     UserFlags,
-    UserPremiumType,
-    ActivityFlags,
-    ActivityTypes,
-    AllowedMentionsTypes
+    UserPremiumType
 } from '../index';
 
-
-//Gateway
 console.log(
-    GatewayCloseCodes, 
-    GatewayDispatchEvents, 
-    GatewayIntentBits, 
-    GatewayOpcodes 
-);
-
-//Guild
-console.log(
+    ActivityFlags,
+    ActivityTypes,
+    ApplicationCommandOptionType,
+    ApplicationCommandPermissionType,
+    ApplicationCommandType,
+    ApplicationFlags,
+    ApplicationRoleConnectionMetadataType,
+    AuditLogEvent,
+    ButtonStyle,
+    ChannelFlags,
+    ChannelType,
+    ComponentType,
+    ForumLayoutType,
+    GatewayIntentBits,
+    GatewayDispatchEvents,
+    GatewayCloseCodes,
+    GatewayOpcodes,
     GuildDefaultMessageNotifications,
     GuildExplicitContentFilter,
     GuildFeature,
@@ -44,22 +77,23 @@ console.log(
     GuildScheduledEventStatus,
     GuildSystemChannelFlags,
     GuildVerificationLevel,
-    GuildWidgetStyle
-);
-
-//User
-console.log(
+    GuildWidgetStyle,
+    IntegrationExpireBehavior,
+    InteractionResponseType,
+    InteractionType,
+    InviteTargetType,
+    AllowedMentionsTypes,
+    MessageFlags,
+    MessageType,
+    MessageActivityType,
+    AutoModerationActionType,
+    AutoModerationRuleEventType,
+    AutoModerationRuleKeywordPresetType,
+    AutoModerationRuleTriggerType,
+    SortOrderType,
+    StageInstancePrivacyLevel,
+    TeamMemberMembershipState,
+    TextInputStyle,
     UserFlags,
     UserPremiumType
-);
-
-//Activity
-console.log(
-    ActivityFlags,
-    ActivityTypes
-);
-
-//Mentions
-console.log(
-    AllowedMentionsTypes
 );

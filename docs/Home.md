@@ -1,7 +1,7 @@
 # Discord Enums
 Welcome to the Discord Enums docs!
 
-# Pages
+# Table of Contents
 + [Activity](Activity.md)
 + [Application](Application.md)
 + [Audit](Audit.md)
@@ -10,7 +10,6 @@ Welcome to the Discord Enums docs!
 + [Component](Component.md)
 + [Forum](Forum.md)
 + [Gateway](Gateway.md)
-+ [Game](Game.md)
 + [Integration](Integration.md)
 + [Interaction](Interaction.md)
 + [Invite](Invite.md)
